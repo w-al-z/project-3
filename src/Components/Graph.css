@@ -1,0 +1,113 @@
+.committee {
+  width: 411px;
+  height: 73px;
+  margin-bottom: 30px;
+  /* left: 200px;
+top: 4147px; */
+
+  font-family: "Tiempos Headline";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 39px;
+
+  color: #050505;
+}
+.twelve {
+  width: 238px;
+  height: 62px;
+  /* left: 810px;
+top: 4094px; */
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22.4318px;
+  line-height: 31px;
+
+  color: #000000;
+}
+.thirteen {
+  font-family: "Apercu Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 0px 30px 0px;
+  /* identical to box height */
+
+  /* text-align: right; */
+
+  /* Text/Light */
+
+  color: #718ebf;
+}
+.point {
+  width: 465px;
+  height: 452px;
+  padding: 30px 40px;
+  /* left: 782px;
+top: 4059px; */
+
+  background: #f3f7fa;
+}
+.points {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10%;
+}
+.nep {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 14px;
+  /* identical to box height, or 93% */
+  border-radius: 30px;
+  background-color: rgb(223, 209, 209);
+  letter-spacing: -0.02em;
+  width: 175px;
+  padding: 5px 10px;
+  height: 26px;
+  color: #060606;
+}
+.fifty {
+  display: flex;
+  gap: 20px;
+  width: 286px;
+  height: 85px;
+  position: absolute;
+  right: -20%;
+  top: 73%;
+  padding: 20px 20px;
+  background: #ffffff;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222),
+    0px 20px 13px rgba(0, 0, 0, 0.015),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
+  border-radius: 10px;
+}
+.advisor {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding-top: 10px;
+  color: #6c6c6c;
+}
+.sixty {
+  position: relative;
+}
+@media (max-width: 768px) {
+  .points {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 10%;
+    gap: 50px;
+  }
+  .fifty {
+    left: 40%;
+    top: 73%;
+  }
+}

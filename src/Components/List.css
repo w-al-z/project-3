@@ -1,0 +1,30 @@
+.im {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 39px;
+
+  color: #050505;
+}
+.lo {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 15px;
+
+  color: #000000;
+}
+.List {
+  padding: 10% 0% 10% 10%;
+}
+@media (max-width: 768px) {
+  .im {
+    font-size: 40px;
+  }
+  .lo {
+    width: 400px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+}

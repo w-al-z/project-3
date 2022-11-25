@@ -1,0 +1,66 @@
+.Articles {
+  font-family: "Tiempos Headline";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 39px;
+  text-align: center;
+
+  color: #050505;
+}
+.Article {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  padding-bottom: 10%;
+
+  color: #000000;
+}
+.Presses {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10%;
+}
+.Presses1 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 10%;
+  padding-top: 40px;
+}
+.Companies {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  color: #050505;
+}
+.Exclusives {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+
+  color: #000000;
+}
+@media (max-width: 768px) {
+  .Press1 {
+    width: 568px;
+  }
+  .Press {
+    width: 568px;
+  }
+  .popo1 {
+    display: none;
+  }
+  .popo2 {
+    display: none;
+  }
+  .popo3 {
+    display: none;
+  }
+}

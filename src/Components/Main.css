@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+.main {
+  display: flex;
+}
+.for {
+  display: flex;
+}
+.dev {
+  display: flex;
+}
+.estate {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  color: #050505;
+}
+.cowdy {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 20px;
+}
+.btn--1 {
+  background: #ff0000;
+  box-shadow: 0px 67px 80px rgba(55, 52, 169, 0.07),
+    0px 43.4259px 46.8519px rgba(55, 52, 169, 0.0531481),
+    0px 25.8074px 25.4815px rgba(55, 52, 169, 0.0425185),
+    0px 13.4px 13px rgba(55, 52, 169, 0.035),
+    0px 5.45926px 6.51852px rgba(55, 52, 169, 0.0274815),
+    0px 1.24074px 3.14815px rgba(55, 52, 169, 0.0168519);
+  border-radius: 47px;
+  width: 162px;
+  height: 60px;
+  border: none;
+  color: white;
+}
+.green {
+  background: #22d497;
+  box-shadow: 0px 100px 80px rgba(34, 212, 151, 0.07),
+    0px 64.8148px 46.8519px rgba(34, 212, 151, 0.0531481),
+    0px 38.5185px 25.4815px rgba(34, 212, 151, 0.0425185),
+    0px 20px 13px rgba(34, 212, 151, 0.035),
+    0px 8.14815px 6.51852px rgba(34, 212, 151, 0.0274815),
+    0px 1.85185px 3.14815px rgba(34, 212, 151, 0.0168519);
+  border-radius: 47px;
+  width: 60px;
+  height: 60px;
+}
+.play1 {
+  padding: 20px 0px 0px 23px;
+}
+.blue {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.dis {
+  display: flex;
+  gap: 40px;
+  padding-top: 40px;
+}
+.see {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #ff0000;
+}
+.real1 {
+  padding: 10% 0% 0% 10%;
+}
+.play2 {
+  width: 330px;
+  height: 510px;
+}
+.cr {
+  padding-left: 60%;
+  position: relative;
+}
+.real2 {
+  position: absolute;
+  width: 512px;
+  height: 445px;
+  background: #f5f6f8;
+  top: 17.5%;
+  right: 5%;
+  border-radius: 20px;
+}
+.tt {
+  padding-top: 40px;
+}
+.received {
+  color: #757095;
+}
+.naira {
+  width: 86px;
+  height: 26px;
+  padding: 2px 5px;
+  border-radius: 30px;
+  background-color: #f57d7d;
+  line-height: 20px;
+}
+.man {
+  display: flex;
+  gap: 20px;
+  width: 286px;
+  height: 85px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 110.121px 88.0972px rgba(0, 0, 0, 0.03),
+    0px 71.375px 51.5939px rgba(0, 0, 0, 0.0227778),
+    0px 42.4172px 28.0606px rgba(0, 0, 0, 0.0182222),
+    0px 22.0243px 14.3158px rgba(0, 0, 0, 0.015),
+    0px 8.97286px 7.17829px rgba(0, 0, 0, 0.0117778),
+    0px 2.03929px 3.46679px rgba(0, 0, 0, 0.00722222);
+  backdrop-filter: blur(32px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+  padding: 20px 10px;
+  position: absolute;
+  top: 30%;
+  right: 25.5%;
+}
+.play4 {
+  position: absolute;
+  top: 60%;
+  right: 23%;
+}
+.progress {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #000000;
+  padding: 10px 20px;
+}
+.bl {
+  position: absolute;
+  width: 252px;
+  height: 80px;
+  right: 0.5%;
+  top: 50%;
+
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 110.121px 88.0972px rgba(0, 0, 0, 0.03),
+    0px 71.375px 51.5939px rgba(0, 0, 0, 0.0227778),
+    0px 42.4172px 28.0606px rgba(0, 0, 0, 0.0182222),
+    0px 22.0243px 14.3158px rgba(0, 0, 0, 0.015),
+    0px 8.97286px 7.17829px rgba(0, 0, 0, 0.0117778),
+    0px 2.03929px 3.46679px rgba(0, 0, 0, 0.00722222);
+  backdrop-filter: blur(32px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+
+    /* background-color: #ff0000; */
+  }
+  .cr {
+    padding-left: 30%;
+  }
+  .real2 {
+    position: absolute;
+    top: 17%;
+    right: 15%;
+  }
+  .man {
+    position: absolute;
+    top: 30%;
+    right: 55.5%;
+  }
+  .play4 {
+    position: absolute;
+    top: 58%;
+    right: 50%;
+  }
+  .bl {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+  }
+}
+@media (max-width: 425px) {
+  .cr {
+    padding-left: 40%;
+    position: relative;
+  }
+  .real2 {
+    position: absolute;
+    top: 20%;
+    right: -45%;
+  }
+  .man {
+    position: absolute;
+    top: 40%;
+    right: 20%;
+  }
+  .play4 {
+    position: absolute;
+    top: 68%;
+    right: 20%;
+  }
+  .bl {
+    position: absolute;
+    right: -45%;
+    top: 50%;
+  }
+  .estate {
+    width: 300%;
+  }
+  .cowdy {
+    /* width: 300%; */
+  }
+  /* .play2 {
+    height: 530px;
+    width: 330px;
+  } */
+}

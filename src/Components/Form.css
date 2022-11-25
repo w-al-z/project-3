@@ -1,0 +1,137 @@
+.comp {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.put {
+  width: 334px;
+  height: 35px;
+  /* left: 201px;
+top: 2648px; */
+  border: none;
+  margin-top: 10px;
+  padding-left: 10px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+.putt {
+  margin-bottom: 15px;
+}
+.veri {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.verif {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #ff0000;
+}
+.playy1 {
+  width: 404px;
+  height: 492px;
+  position: relative;
+
+  background: #f3f7fa;
+  margin-bottom: 10%;
+}
+.flame {
+  padding: 50px 40px;
+}
+.peace {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 286px;
+  height: 85px;
+  padding: 10px 20px;
+  position: absolute;
+  left: -20%;
+  top: 60%;
+
+  background: #ffffff;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222),
+    0px 20px 13px rgba(0, 0, 0, 0.015),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
+  border-radius: 10px;
+}
+.peaces {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 286px;
+  height: 85px;
+  padding: 10px 20px;
+  position: absolute;
+  left: 45%;
+  top: 88%;
+
+  background: #ffffff;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222),
+    0px 20px 13px rgba(0, 0, 0, 0.015),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
+  border-radius: 10px;
+}
+
+.ups {
+  width: 136px;
+  height: 26px;
+  /* left: 180px;
+top: 2815px; */
+
+  /* Pallet 4 / Primary */
+
+  /* background: #3734a9; */
+  background: #f3f7fa;
+  border-radius: 30px;
+  margin-top: 5px;
+  padding: 0px 10px;
+}
+.trop {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #6c6c6c;
+}
+.rao {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #ff0000;
+}
+.yoga {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 768px) {
+  .yoga {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    gap: 20px;
+  }
+  .mp22 {
+    margin: 0;
+  }
+}

@@ -1,0 +1,97 @@
+.yasir {
+  width: 637px;
+  height: 100px;
+  /* left: 210px;
+top: 6344px; */
+
+  font-family: "Apercu Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  display: flex;
+  /* align-items: center; */
+
+  color: #ffffff;
+}
+.intouch {
+  width: 637px;
+  height: 25px;
+  /* left: 215px;
+  top: 6470px; */
+
+  font-family: "Apercu Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  /* line-height: 55px; */
+  /* identical to box height */
+
+  display: flex;
+  /* align-items: center; */
+
+  color: #ffffff;
+}
+.breakit {
+  width: 200px;
+  height: 60px;
+  /* left: 1080px;
+top: 6389px; */
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+.philips {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 85%;
+  height: 250px;
+  align-items: center;
+  /* left: 115px;
+top: 6294px; */
+  gap: 40px;
+  position: relative;
+  background: #ff0000;
+  border-radius: 10px;
+  margin-left: 8%;
+  margin-bottom: 5%;
+}
+.who1 {
+  position: absolute;
+  top: 45%;
+  left: 55%;
+}
+.who2 {
+  position: absolute;
+  top: 65%;
+  left: 60%;
+}
+.who3 {
+  position: absolute;
+  top: -20%;
+  left: 90%;
+}
+.who4 {
+  position: absolute;
+  top: -5%;
+  left: 95%;
+}
+@media (max-width: 768px) {
+  .philips {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 10px 20px;
+  }
+  .intouch {
+    width: 290px;
+  }
+  .who3 {
+    display: none;
+  }
+  .who4 {
+    display: none;
+  }
+}

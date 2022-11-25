@@ -1,0 +1,76 @@
+.jacket {
+  display: flex;
+  gap: 10px;
+}
+
+.jacket1 {
+  width: 252px;
+  height: 63px;
+  /* left: 225px;
+top: 4845px; */
+
+  font-family: "Apercu Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+.safety {
+  width: 275px;
+  height: 40px;
+  /* left: 225px;
+top: 4815px; */
+
+  font-family: "Apercu Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #fbfbfb;
+}
+.safetyyy {
+  width: 270px;
+  height: 159px;
+  background: #ff0000;
+  padding: 20px 15px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.fijet {
+  display: flex;
+  /* gap: 5%; */
+  padding-left: 20px;
+  justify-content: space-around;
+  padding-bottom: 10%;
+  /* margin: 0; */
+}
+.safetyyy1 {
+  background: #ff3648;
+  width: 322px;
+  height: 160px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  padding: 20px 15px;
+}
+.safetyyy2 {
+  background: #535353;
+  width: 312px;
+  height: 160px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  padding: 20px 15px;
+}
+.number2 {
+  outline: #535353;
+}
+@media (max-width: 768px) {
+  .fijet {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+}
