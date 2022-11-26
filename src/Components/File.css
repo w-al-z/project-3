@@ -95,3 +95,13 @@ top: 6294px; */
     display: none;
   }
 }
+@media (max-width: 700px) {
+  .intouch {
+    font-size: 20px;
+  }
+  .yasir {
+    font-size: 25px;
+    width: 300px;
+    line-height: 30px;
+  }
+}

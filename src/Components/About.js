@@ -11,7 +11,7 @@ const About = () => {
           your investment opportunities
         </p>
         <p>
-          are regulsted by appropriate authorities,investors need not worry as
+          are regulsted by appropriate authorities,investor need not worry as
           their investment are safe and secure
         </p>
       </div>

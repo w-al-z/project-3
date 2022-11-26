@@ -75,23 +75,43 @@
   color: #ff0000;
 }
 .real1 {
-  padding: 10% 0% 0% 10%;
+  padding: 10% 0% 0% 5%;
+}
+.cover {
+  position: absolute;
 }
 .play2 {
   width: 330px;
   height: 510px;
+  /* position: absolute; */
 }
 .cr {
-  padding-left: 60%;
-  position: relative;
+  /* padding-left: 15%; */
+  margin-bottom: 15px;
+  padding-left: 220px;
+  /* z-index: 40; */
+}
+.pt {
+  /* position: relative; */
+}
+
+.grid {
+  position: absolute;
+}
+.do {
+  padding-top: 65px;
+  padding-left: 90px;
 }
 .real2 {
-  position: absolute;
+  /* position: relative; */
   width: 512px;
   height: 445px;
   background: #f5f6f8;
-  top: 17.5%;
-  right: 5%;
+  /* margin: 20% 0px 0px 15%; */
+  /* padding-top: 130px; */
+
+  /* top: 17.5%;
+  right: 5%; */
   border-radius: 20px;
 }
 .tt {
@@ -126,13 +146,18 @@
   border-radius: 10px;
   padding: 20px 10px;
   position: absolute;
-  top: 30%;
-  right: 25.5%;
+  top: 140px;
+  left: 40px;
+  /* margin-top: 8%; */
+  /* z-index: 300; */
+  /* top: 30%;
+  right: 25.5%; */
 }
+
 .play4 {
   position: absolute;
-  top: 60%;
-  right: 23%;
+  top: 330px;
+  right: -330px;
 }
 .progress {
   font-style: italic;
@@ -146,8 +171,8 @@
   position: absolute;
   width: 252px;
   height: 80px;
-  right: 0.5%;
-  top: 50%;
+  left: 390px;
+  top: 200px;
 
   background: rgba(255, 255, 255, 0.8);
   box-shadow: 0px 110.121px 88.0972px rgba(0, 0, 0, 0.03),
@@ -168,7 +193,7 @@
 
     /* background-color: #ff0000; */
   }
-  .cr {
+  /* .cr {
     padding-left: 30%;
   }
   .real2 {
@@ -180,8 +205,8 @@
     position: absolute;
     top: 30%;
     right: 55.5%;
-  }
-  .play4 {
+  } */
+  /* .play4 {
     position: absolute;
     top: 58%;
     right: 50%;
@@ -190,41 +215,68 @@
     position: absolute;
     right: 10%;
     top: 50%;
-  }
+  } */
 }
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .cr {
-    padding-left: 40%;
-    position: relative;
+    padding-left: 180px;
   }
   .real2 {
-    position: absolute;
-    top: 20%;
-    right: -45%;
+    width: 340px;
+    height: 265px;
+    background: #f5f6f8;
+    border-radius: 20px;
   }
+
   .man {
     position: absolute;
-    top: 40%;
-    right: 20%;
+    top: 90px;
+    left: 20px;
+    width: 196px;
+    height: 65px;
+    font-size: 8px;
+  }
+  .naira {
+    width: 56px;
+    height: 26px;
+  }
+  .play3 {
+    width: 34px;
+    height: 34px;
+  }
+  .received {
   }
   .play4 {
     position: absolute;
-    top: 68%;
-    right: 20%;
+    left: -40px;
+    top: 210px;
+    height: 250px;
+    width: 320px;
   }
   .bl {
     position: absolute;
-    right: -45%;
-    top: 50%;
+    width: 196px;
+    height: 65px;
+    font-size: 8px;
+    left: 280px;
+    top: 150px;
   }
   .estate {
+    width: 98%;
+  }
+  /* .cowdy {
     width: 300%;
-  }
-  .cowdy {
-    /* width: 300%; */
-  }
-  /* .play2 {
-    height: 530px;
-    width: 330px;
   } */
+  .play2 {
+    height: 330px;
+    width: 200px;
+  }
+  .play5 {
+    height: 40px;
+    width: 200px;
+    padding-bottom: 10px;
+  }
+  .do {
+    padding-left: 70px;
+  }
 }

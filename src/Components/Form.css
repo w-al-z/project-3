@@ -122,16 +122,33 @@ top: 2815px; */
 }
 .yoga {
   display: flex;
-  justify-content: space-around;
+  padding-left: 80px;
+  gap: 10%;
+  /* justify-content: space-around; */
 }
 @media (max-width: 768px) {
   .yoga {
     display: flex;
     flex-direction: column;
-    padding-left: 20%;
+    padding-left: 10%;
     gap: 20px;
   }
   .mp22 {
     margin: 0;
+  }
+}
+@media (max-width: 700px) {
+  .playy2 {
+    margin-left: -35px;
+  }
+  .peace {
+    position: absolute;
+    left: -30px;
+    top: 290px;
+  }
+  .peaces {
+    position: absolute;
+    left: 150px;
+    top: 380px;
   }
 }

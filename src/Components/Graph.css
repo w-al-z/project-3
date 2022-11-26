@@ -111,3 +111,11 @@ top: 4059px; */
     top: 73%;
   }
 }
+@media (max-width: 700px) {
+  .sixty {
+    margin-left: -20px;
+  }
+  .point {
+    width: 430px;
+  }
+}

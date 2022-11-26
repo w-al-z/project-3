@@ -15,7 +15,7 @@
   color: #000000;
 }
 .about {
-  padding: 15% 0% 10% 10%;
+  padding: 15% 0% 10% 5%;
 }
 @media (max-width: 768px) {
   .an {
@@ -26,7 +26,7 @@
     flex-direction: column;
     gap: 10px;
     padding-top: 20px;
-    width: 450px;
+    width: 430px;
     font-weight: 600;
     font-size: 18px;
     line-height: 20px;

@@ -5,7 +5,9 @@
 }
 .cards {
   display: flex;
-  justify-content: space-around;
+  gap: 350px;
+  padding-left: 80px;
+  /* justify-content: space-around; */
 }
 .investors {
   font-style: normal;
@@ -139,11 +141,40 @@
   .cards {
     display: flex;
     flex-direction: column;
-    margin: 10% 0% 10% 10%;
-    gap: 40px;
+    padding-top: 70px;
+    /* margin: 10% 0% 10% 10%; */
+    gap: 80px;
   }
-  .joint {
-    font-weight: 900;
-    font-size: 40px;
+}
+@media (max-width: 700px) {
+  .card1 {
+    width: 230px;
+    height: 358px;
+    font-size: 10px;
+    padding-left: 10px;
+  }
+  .cards {
+    padding-left: 20px;
+  }
+  .emeka {
+    font-size: 15px;
+  }
+  .icon1 {
+    position: absolute;
+    top: -30px;
+    left: 170px;
+  }
+  .walz {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 190px;
+  }
+  .net {
+    width: 150px;
+    height: 42px;
+    font-size: 10px;
+    margin-left: 25px;
   }
 }

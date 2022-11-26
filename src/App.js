@@ -17,17 +17,17 @@ function App() {
   return (
     <div className="App">
       <Main />
-      {/* <Card /> */}
-      {/* <About /> */}
-      {/* <Subcard /> */}
-      {/* <List /> */}
-      {/* <Form /> */}
-      {/* <Why /> */}
-      {/* <Subform /> */}
-      {/* <Graph /> */}
-      {/* <Number /> */}
-      {/* <Article /> */}
-      {/* <File /> */}
+      <Card />
+      <About />
+      <Subcard />
+      <List />
+      <Form />
+      <Why />
+      <Subform />
+      <Graph />
+      <Number />
+      <Article />
+      <File />
       {/* <Footer /> */}
     </div>
   );

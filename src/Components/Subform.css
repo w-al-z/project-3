@@ -154,6 +154,15 @@ top: 3591px; */
   }
   .nastyd {
     width: 371px;
-    height: 70px;
+    height: 50px;
+  }
+}
+@media (max-width: 700px) {
+  .nastyc {
+    font-size: 20px;
+    width: 400px;
+    line-height: 30px;
+    padding-top: 20px;
+    margin-bottom: 15%;
   }
 }

@@ -39,28 +39,36 @@ const Main = () => {
         </div>
       </div>
       <div className="tt">
-        <div className="real2"></div>
-        <div className="cr">
-          <img className="play2" src={img2} />
-        </div>
+        <div className="grid">
+          <div className="cover">
+            <div className="man">
+              <div>
+                <img src={img3} className="play3" />
+              </div>
 
-        <div className="man">
-          <div>
-            <img src={img3} className="play3" />
+              <div>
+                <p className="naira">+ ₦28,900</p>
+                <p className="received">Received from Investment</p>
+              </div>
+            </div>
+            <div>
+              <img className="play4" src={img4} />
+            </div>
+            <div className="bl">
+              <p className="progress">Investment Progress</p>
+              <img className="play5" src={img5} />
+            </div>
           </div>
 
-          <div>
-            <p className="naira">+ ₦28,900</p>
-            <p className="received">Received from Investment</p>
+          <div className="cr">
+            <img className="play2" src={img2} />
           </div>
         </div>
-
-        <div>
-          <img className="play4" src={img4} />
-        </div>
-        <div className="bl">
-          <p className="progress">Investment Progress</p>
-          <img className="play5" src={img5} />
+        <div className="pt">
+          <div className="do">
+            {" "}
+            <div className="real2"></div>
+          </div>
         </div>
       </div>
     </div>

@@ -63,13 +63,14 @@ top: 1738px; */
 .circle1 {
   position: absolute;
   top: 0%;
+  left: -0px;
   z-index: 10;
 }
 .circle2 {
   position: absolute;
   left: 86.5%;
   top: 35%;
-  z-index: 0;
+  z-index: 70;
 }
 .set {
   font-style: normal;
@@ -112,16 +113,37 @@ top: 1676px; */
 }
 .waloski {
   display: flex;
-  justify-content: space-around;
+  gap: 3%;
+  /* justify-content: space-around; */
 }
 @media (max-width: 768px) {
   .waloski {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding-left: 40px;
+    padding-left: 10px;
   }
   .mp2 {
     margin-left: 10%;
+  }
+}
+@media (max-width: 700px) {
+  .mp2 {
+    margin-left: 2px;
+  }
+  .circle1 {
+    display: none;
+  }
+  .circle2 {
+    display: none;
+  }
+  .mp1 {
+    width: 440px;
+    margin-left: 10px;
+  }
+  .cards1 {
+    width: 380px;
+    margin-left: -15px;
+    height: 85px;
   }
 }

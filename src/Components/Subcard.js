@@ -14,11 +14,11 @@ const Subcard = () => {
   return (
     <div className="waloski">
       <div className="mp1">
-        <div className="circle1">
-          <img src={img17} />
+        <div>
+          <img className="circle1" src={img17} />
         </div>
-        <div className="circle2">
-          <img src={img18} />
+        <div>
+          <img className="circle2" src={img18} />
         </div>
 
         <div className="subcards">

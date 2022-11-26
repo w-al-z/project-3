@@ -10,7 +10,12 @@
 }
 @media (max-width: 768px) {
   .whay {
-    font-size: 50px;
+    font-size: 40px;
     padding: 20% 0% 15% 0%;
+  }
+}
+@media (max-width: 700px) {
+  .whay {
+    font-size: 30px;
   }
 }
