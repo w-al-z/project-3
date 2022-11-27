@@ -61,6 +61,7 @@
 .blue {
   display: flex;
   align-items: center;
+  width: 280px;
   gap: 15px;
 }
 .dis {
@@ -72,6 +73,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
+  /* width: 100px; */
   color: #ff0000;
 }
 .real1 {
@@ -263,10 +265,14 @@
   }
   .estate {
     width: 98%;
+    font-size: 20px;
+    padding-left: 30px;
   }
-  /* .cowdy {
-    width: 300%;
-  } */
+  .cowdy {
+    width: 98%;
+    font-size: 15px;
+    padding-left: 30px;
+  }
   .play2 {
     height: 330px;
     width: 200px;

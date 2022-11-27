@@ -76,6 +76,6 @@ top: 4815px; */
 }
 @media (max-width: 700px) {
   .jacket {
-    margin-right: 20px;
+    margin-left: 10px;
   }
 }

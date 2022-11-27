@@ -68,4 +68,10 @@
   .Press {
     width: 400px;
   }
+  .Presses {
+    margin-left: 20px;
+  }
+  .Articles {
+    width: 450px;
+  }
 }
